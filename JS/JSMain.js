@@ -7,3 +7,7 @@ function errore(IDName, IDStampName){
         document.getElementById(IDStampName).innerHTML="";
     }
 }
+function vuoto(IDName, IDStampName){
+    name = document.getElementById(IDName).value;
+    document.getElementById(IDStampName).innerHTML="";
+}
