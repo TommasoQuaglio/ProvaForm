@@ -8,9 +8,10 @@
 <body>
 <form action="" method="post">
     <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" onblur="errore()" required><label for="fname" id="Error_fname"></label><br>
+    <input type="text" id="fname" name="fname" onblur="errore('fname', 'Error_fname')" required><label for="fname" id="Error_fname"></label><br>
     <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname"><br><label for="fname" id="Error_lname"></label><br>
+    <input type="text" id="lname" name="lname" onblur="errore('lname', 'Error_lname')" required><label for="fname" id="Error_lname"></label><br>
+    <br>
     <input type="submit" value="Submit">
 </form>
 </body>

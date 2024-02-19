@@ -1,8 +1,9 @@
-function errore(){
-    name = document.getElementById("fname").value;
+
+function errore(IDName, IDStampName){
+    name = document.getElementById(IDName).value;
     if (name === ""){
-        document.getElementById("Error_fname").innerHTML=" ERRORE -  il campo non deve essere vuoto";
+        document.getElementById(IDStampName).innerHTML=" ERRORE -  il campo non deve essere vuoto";
     }else{
-        document.getElementById("Error_fname").innerHTML="";
+        document.getElementById(IDStampName).innerHTML="";
     }
 }
