@@ -6,7 +6,7 @@
     <script src="JS/JSMain.js"></script>
 </head>
 <body>
-<form>
+<form id="form">
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname" onblur="errore('fname', 'Error_fname')" onkeydown="vuoto('fname', 'Error_fname')" required>
     <label for="fname" id="Error_fname"></label><br>
@@ -14,7 +14,7 @@
     <label for="lname">Last name:</label><br>
     <input type="text" id="lname" name="lname" onblur="errore('lname', 'Error_lname')" onkeydown="vuoto('lname', 'Error_lname')" required>
     <label for="fname" id="Error_lname"></label><br>
-
+    <button></button>
     <input type="submit" value="Submit">
 </form>
 </body>
